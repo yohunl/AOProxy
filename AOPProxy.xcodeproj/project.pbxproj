@@ -7,15 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		09205B4E1C5149CF00FC6908 /* AOPThreadInvoker.m in Sources */ = {isa = PBXBuildFile; fileRef = 09205B4D1C5149CF00FC6908 /* AOPThreadInvoker.m */; };
+		09205B511C51571000FC6908 /* NSDictionary+Accessors.m in Sources */ = {isa = PBXBuildFile; fileRef = 09205B501C51571000FC6908 /* NSDictionary+Accessors.m */; };
 		09AB06221C51462A00020088 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 09AB06211C51462A00020088 /* main.m */; };
 		09AB06251C51462A00020088 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 09AB06241C51462A00020088 /* AppDelegate.m */; };
 		09AB06281C51462A00020088 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09AB06271C51462A00020088 /* ViewController.m */; };
 		09AB062B1C51462A00020088 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09AB06291C51462A00020088 /* Main.storyboard */; };
 		09AB062D1C51462A00020088 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09AB062C1C51462A00020088 /* Assets.xcassets */; };
 		09AB06301C51462A00020088 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09AB062E1C51462A00020088 /* LaunchScreen.storyboard */; };
+		09AB063B1C51465200020088 /* AOPProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 09AB06381C51465200020088 /* AOPProxy.m */; };
+		09AB06411C51469E00020088 /* AOPProxyDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 09AB06401C51469E00020088 /* AOPProxyDemo.m */; };
+		09AB06441C5146ED00020088 /* AOPMethodLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 09AB06431C5146ED00020088 /* AOPMethodLogger.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		09205B4C1C5149CF00FC6908 /* AOPThreadInvoker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AOPThreadInvoker.h; sourceTree = "<group>"; };
+		09205B4D1C5149CF00FC6908 /* AOPThreadInvoker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AOPThreadInvoker.m; sourceTree = "<group>"; };
+		09205B4F1C51571000FC6908 /* NSDictionary+Accessors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Accessors.h"; sourceTree = "<group>"; };
+		09205B501C51571000FC6908 /* NSDictionary+Accessors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Accessors.m"; sourceTree = "<group>"; };
 		09AB061D1C51462A00020088 /* AOPProxy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AOPProxy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09AB06211C51462A00020088 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		09AB06231C51462A00020088 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +35,12 @@
 		09AB062C1C51462A00020088 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		09AB062F1C51462A00020088 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		09AB06311C51462A00020088 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09AB06371C51465200020088 /* AOPProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AOPProxy.h; sourceTree = "<group>"; };
+		09AB06381C51465200020088 /* AOPProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AOPProxy.m; sourceTree = "<group>"; };
+		09AB063F1C51469E00020088 /* AOPProxyDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AOPProxyDemo.h; sourceTree = "<group>"; };
+		09AB06401C51469E00020088 /* AOPProxyDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AOPProxyDemo.m; sourceTree = "<group>"; };
+		09AB06421C5146ED00020088 /* AOPMethodLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AOPMethodLogger.h; sourceTree = "<group>"; };
+		09AB06431C5146ED00020088 /* AOPMethodLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AOPMethodLogger.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +73,13 @@
 		09AB061F1C51462A00020088 /* AOPProxy */ = {
 			isa = PBXGroup;
 			children = (
+				09205B4F1C51571000FC6908 /* NSDictionary+Accessors.h */,
+				09205B501C51571000FC6908 /* NSDictionary+Accessors.m */,
+				09AB063E1C51465D00020088 /* Proxy */,
 				09AB06231C51462A00020088 /* AppDelegate.h */,
 				09AB06241C51462A00020088 /* AppDelegate.m */,
+				09AB063F1C51469E00020088 /* AOPProxyDemo.h */,
+				09AB06401C51469E00020088 /* AOPProxyDemo.m */,
 				09AB06261C51462A00020088 /* ViewController.h */,
 				09AB06271C51462A00020088 /* ViewController.m */,
 				09AB06291C51462A00020088 /* Main.storyboard */,
@@ -77,6 +97,19 @@
 				09AB06211C51462A00020088 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		09AB063E1C51465D00020088 /* Proxy */ = {
+			isa = PBXGroup;
+			children = (
+				09AB06371C51465200020088 /* AOPProxy.h */,
+				09AB06381C51465200020088 /* AOPProxy.m */,
+				09AB06421C5146ED00020088 /* AOPMethodLogger.h */,
+				09AB06431C5146ED00020088 /* AOPMethodLogger.m */,
+				09205B4C1C5149CF00FC6908 /* AOPThreadInvoker.h */,
+				09205B4D1C5149CF00FC6908 /* AOPThreadInvoker.m */,
+			);
+			name = Proxy;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,9 +182,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09AB06411C51469E00020088 /* AOPProxyDemo.m in Sources */,
 				09AB06281C51462A00020088 /* ViewController.m in Sources */,
 				09AB06251C51462A00020088 /* AppDelegate.m in Sources */,
+				09205B511C51571000FC6908 /* NSDictionary+Accessors.m in Sources */,
+				09205B4E1C5149CF00FC6908 /* AOPThreadInvoker.m in Sources */,
 				09AB06221C51462A00020088 /* main.m in Sources */,
+				09AB06441C5146ED00020088 /* AOPMethodLogger.m in Sources */,
+				09AB063B1C51465200020088 /* AOPProxy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +338,7 @@
 				09AB06361C51462A00020088 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
